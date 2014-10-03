@@ -14,6 +14,19 @@
 		70DA11A819DBC73E00CBC210 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70DA11A719DBC73E00CBC210 /* Images.xcassets */; };
 		70DA11AB19DBC73E00CBC210 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70DA11A919DBC73E00CBC210 /* LaunchScreen.xib */; };
 		70DA11B719DBC73E00CBC210 /* EasyDinnerRestaurantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DA11B619DBC73E00CBC210 /* EasyDinnerRestaurantTests.m */; };
+		70DA11C219DBCD2100CBC210 /* CustomerListTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DA11C119DBCD2100CBC210 /* CustomerListTableView.m */; };
+		70DA11C519DBCE1D00CBC210 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DA11C319DBCE1D00CBC210 /* Bolts.framework */; };
+		70DA11C619DBCE1D00CBC210 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DA11C419DBCE1D00CBC210 /* Parse.framework */; };
+		70DA11C819DBCE6300CBC210 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DA11C719DBCE6300CBC210 /* AudioToolbox.framework */; };
+		70DA11CA19DBCE6A00CBC210 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DA11C919DBCE6A00CBC210 /* CFNetwork.framework */; };
+		70DA11CC19DBCE7200CBC210 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DA11CB19DBCE7200CBC210 /* CoreGraphics.framework */; };
+		70DA11CE19DBCE7800CBC210 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DA11CD19DBCE7800CBC210 /* CoreLocation.framework */; };
+		70DA11D019DBCE7E00CBC210 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DA11CF19DBCE7E00CBC210 /* libz.dylib */; };
+		70DA11D219DBCE8400CBC210 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DA11D119DBCE8400CBC210 /* MobileCoreServices.framework */; };
+		70DA11D419DBCE8C00CBC210 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DA11D319DBCE8C00CBC210 /* QuartzCore.framework */; };
+		70DA11D619DBCE9400CBC210 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DA11D519DBCE9400CBC210 /* Security.framework */; };
+		70DA11D819DBCE9900CBC210 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DA11D719DBCE9900CBC210 /* StoreKit.framework */; };
+		70DA11DA19DBCE9F00CBC210 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DA11D919DBCE9F00CBC210 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +53,20 @@
 		70DA11B019DBC73E00CBC210 /* EasyDinnerRestaurantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyDinnerRestaurantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70DA11B519DBC73E00CBC210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70DA11B619DBC73E00CBC210 /* EasyDinnerRestaurantTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyDinnerRestaurantTests.m; sourceTree = "<group>"; };
+		70DA11C019DBCD2100CBC210 /* CustomerListTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerListTableView.h; sourceTree = "<group>"; };
+		70DA11C119DBCD2100CBC210 /* CustomerListTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerListTableView.m; sourceTree = "<group>"; };
+		70DA11C319DBCE1D00CBC210 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		70DA11C419DBCE1D00CBC210 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		70DA11C719DBCE6300CBC210 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		70DA11C919DBCE6A00CBC210 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		70DA11CB19DBCE7200CBC210 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		70DA11CD19DBCE7800CBC210 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		70DA11CF19DBCE7E00CBC210 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		70DA11D119DBCE8400CBC210 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		70DA11D319DBCE8C00CBC210 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		70DA11D519DBCE9400CBC210 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		70DA11D719DBCE9900CBC210 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		70DA11D919DBCE9F00CBC210 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +74,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70DA11DA19DBCE9F00CBC210 /* SystemConfiguration.framework in Frameworks */,
+				70DA11D819DBCE9900CBC210 /* StoreKit.framework in Frameworks */,
+				70DA11D619DBCE9400CBC210 /* Security.framework in Frameworks */,
+				70DA11D419DBCE8C00CBC210 /* QuartzCore.framework in Frameworks */,
+				70DA11D219DBCE8400CBC210 /* MobileCoreServices.framework in Frameworks */,
+				70DA11D019DBCE7E00CBC210 /* libz.dylib in Frameworks */,
+				70DA11CE19DBCE7800CBC210 /* CoreLocation.framework in Frameworks */,
+				70DA11CC19DBCE7200CBC210 /* CoreGraphics.framework in Frameworks */,
+				70DA11CA19DBCE6A00CBC210 /* CFNetwork.framework in Frameworks */,
+				70DA11C819DBCE6300CBC210 /* AudioToolbox.framework in Frameworks */,
+				70DA11C619DBCE1D00CBC210 /* Parse.framework in Frameworks */,
+				70DA11C519DBCE1D00CBC210 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +127,8 @@
 				70DA11A419DBC73E00CBC210 /* Main.storyboard */,
 				70DA11A719DBC73E00CBC210 /* Images.xcassets */,
 				70DA11A919DBC73E00CBC210 /* LaunchScreen.xib */,
+				70DA11C019DBCD2100CBC210 /* CustomerListTableView.h */,
+				70DA11C119DBCD2100CBC210 /* CustomerListTableView.m */,
 				70DA119A19DBC73E00CBC210 /* Supporting Files */,
 			);
 			path = EasyDinnerRestaurant;
@@ -96,6 +137,18 @@
 		70DA119A19DBC73E00CBC210 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				70DA11D919DBCE9F00CBC210 /* SystemConfiguration.framework */,
+				70DA11D719DBCE9900CBC210 /* StoreKit.framework */,
+				70DA11D519DBCE9400CBC210 /* Security.framework */,
+				70DA11D319DBCE8C00CBC210 /* QuartzCore.framework */,
+				70DA11D119DBCE8400CBC210 /* MobileCoreServices.framework */,
+				70DA11CF19DBCE7E00CBC210 /* libz.dylib */,
+				70DA11CD19DBCE7800CBC210 /* CoreLocation.framework */,
+				70DA11CB19DBCE7200CBC210 /* CoreGraphics.framework */,
+				70DA11C919DBCE6A00CBC210 /* CFNetwork.framework */,
+				70DA11C719DBCE6300CBC210 /* AudioToolbox.framework */,
+				70DA11C319DBCE1D00CBC210 /* Bolts.framework */,
+				70DA11C419DBCE1D00CBC210 /* Parse.framework */,
 				70DA119B19DBC73E00CBC210 /* Info.plist */,
 				70DA119C19DBC73E00CBC210 /* main.m */,
 			);
@@ -168,6 +221,7 @@
 				TargetAttributes = {
 					70DA119619DBC73E00CBC210 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 79F76JF88G;
 					};
 					70DA11AF19DBC73E00CBC210 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -222,6 +276,7 @@
 				70DA11A319DBC73E00CBC210 /* ViewController.m in Sources */,
 				70DA11A019DBC73E00CBC210 /* AppDelegate.m in Sources */,
 				70DA119D19DBC73E00CBC210 /* main.m in Sources */,
+				70DA11C219DBCD2100CBC210 /* CustomerListTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +400,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EasyDinnerRestaurant",
+				);
 				INFOPLIST_FILE = EasyDinnerRestaurant/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -355,9 +418,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EasyDinnerRestaurant",
+				);
 				INFOPLIST_FILE = EasyDinnerRestaurant/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -414,6 +485,7 @@
 				70DA11BC19DBC73E00CBC210 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70DA11BD19DBC73E00CBC210 /* Build configuration list for PBXNativeTarget "EasyDinnerRestaurantTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +494,7 @@
 				70DA11BF19DBC73E00CBC210 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

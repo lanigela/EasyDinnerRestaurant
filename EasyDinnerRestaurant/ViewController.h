@@ -8,8 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
 
+@property (strong, nonatomic)NSMutableArray* names;
+@property (strong, nonatomic)NSMutableArray* phone;
+@property (strong, nonatomic)NSMutableArray* customertype;
+@property (strong, nonatomic)NSMutableArray* deviceToken;
+@property (nonatomic)NSInteger selectedrow;
+
+
+- (void) UpdateInfo;
 
 @end
 
